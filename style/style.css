@@ -44,10 +44,15 @@ h1{
     height:400px;
     margin: 150px 0 0 200px;
 }
+.descarga{
+    background: linear-gradient(to right, #834bd5, #4460d5);
+    border-radius:4px;
+    padding: 10px 16px;
+}
 .boton{
     border: 1px solid white ;
-    color: #f5a0cc;
-    height:30px;
+    color: #ec006e;
+    height:40px;
     width: 120px;
     border-radius:3px;
     margin: 15px 0 0 350px;
@@ -55,7 +60,7 @@ h1{
 .boton1{
     border: 1px solid white ;
     color: white;
-    height:30px;
+    height:40px;
     width: 120px;
     background-color: #2e2550;
     border-radius:3px;
@@ -64,6 +69,7 @@ h1{
     background-image: url(../images/hojasFondo.jfif);
     height: 600px;
     width: 1020px;
+    background-size: cover;
 }
 .negro{
     color: black;
@@ -74,7 +80,7 @@ h1{
     font-size:50px
 }
 .alp{
-    color: #c4578f;
+    color: #c82263;
     font-size:40px
 }
 .mar{
@@ -98,17 +104,18 @@ h1{
 }
 .planes1{
     display: flex;
+    height: 600px;
     justify-content: space-evenly;
 }
 .textos{
     color: white;
     text-align: center;
-    margin: 0 500px 0 500px
+    margin: 0px 500px 0 500px
 }
 .hoja{
     text-align: center;
     background-color: white;
-    height: 500px;
+    height: 560px;
     width: 300px;
     border-radius: 5px
 }
@@ -121,7 +128,7 @@ h4{
 .nube{
     text-align: center;
     background-color: white;
-    height: 500px;
+    height: 560px;
     width: 300px;
     border-radius: 5px
 }
@@ -131,7 +138,7 @@ h2{
 .maleta{
     text-align: center;
     background-color: white;
-    height: 500px;
+    height: 560px;
     width: 300px;
     border-radius: 5px
 }
@@ -162,4 +169,19 @@ h2{
     border-radius: 3px;
     height: 40px;
     color: white;
+}
+footer{
+    display: flex;
+    font-size:30px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.col{
+    color: #ef3e99;
+}
+small{
+    color: #f03896;
+}
+.p{
+    font-size: 16px
 }
